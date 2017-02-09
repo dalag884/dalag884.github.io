@@ -5,7 +5,7 @@ body {
 .frame {
   width: 1000px;
   height: 600px;
-  background: white;
+  background: lavender;
   margin: 30px auto;
   position: relative;
 }
@@ -35,28 +35,26 @@ body {
 
 .vase {
   position: absolute;
-  width: 150px;
-  height: 210px;
-  background: pink;
+  width: 130px;
+  height: 173px;
+  background: white;
   bottom: 137px;
   border-right: 36px;
   border-radius: 40px;
- left: 560px;
- border-bottom-left-radius: 20px;
- border-bottom-right-radius: 20px;
- border-top-left-radius: 70px;
- border-top-right-radius: 70px
-
-
+  left: 568px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
 }
 
 .vase-top {
   position: absolute;
-      width: 65px;
-      background: pink;
-      height: 70px;
-      top: 198px;
-      left: 600px;
+      width: 47px;
+      background: white;
+      height: 60px;
+      top: 240px;
+      left: 609px;
       border-radius: 10px;
 
 }
@@ -71,6 +69,14 @@ body {
   left: 160px;
 }
 
+.book-title3 {
+  position: absolute;
+  color: black;
+  font-family: 'Times';
+  font-size:0.70em;
+}
+
+
 .book-middle {
  content: 'JavaScript';
  position: absolute;
@@ -81,28 +87,66 @@ body {
  left: 170px;
 }
 
+.book-title2 {
+  position: absolute;
+  color: white;
+  font-family: 'Times';
+  font-size:2em;
+}
+
+.book-spine {
+  position: absolute;
+  background: black;
+  width: 20px;
+  height: 44px;
+  bottom: 6px;
+  left: 160px;
+}
+
 .book-top {
   content: '';
   position: absolute;
-  background: #f5e6f5;
+  background: white;
   width: 150px;
   height: 40px;
-  bottom: 190px;
+  bottom: 195px;
   left: 170px;
 }
 
-.candle {
-       position: absolute;
-       width: 41px;
-       height: 70px;
-       background: brown;
-       bottom: 137px;
-       left: 430px;
+.book-title {
+  position: absolute;
+  color: black;
+  font-family: 'futura';
+  font-size:0.40em;
+  line-height: 0.9em
 
 }
 
-.candle-top {
+.candle {
+  position: absolute;
+      width: 37px;
+      height: 61px;
+      background: #632121;
+      bottom: 137px;
+      left: 430px;
+}
 
+.candle-wick {
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background: black;
+  bottom: 196px;
+  left: 448px;
+}
+
+.candle-top {
+  position: absolute;
+  width: 37px;
+  height: 18px;
+  background: rgba(0, 0, 0, 0.15);
+  bottom: 192px;
+  left: 430px;
 }
 
 .stem {
@@ -110,17 +154,64 @@ body {
      width: 7px;
      height: 111px;
      background: #4CAF50;
-     bottom: 401px;
-     left: 642px;
- }
+     bottom: 358px;
+     left: 641px;
+     transform: rotate(5deg);
+}
 
 
 .stem-left {
-     position: absolute;
-     width: 7px;
-     height: 130px;
-     background: #4CAF50;
-     bottom: 401px;
-     left: 621px;
+  position: absolute;
+  width: 7px;
+  height: 130px;
+  background: #4CAF50;
+  bottom: 358px;
+  left: 614px;
+  transform: rotate(-10deg);
  }
+
+ .flower {
+     position: absolute;
+     width: 15px;
+     background: rgba(158, 58, 158, 0.57);
+     height: 43px;
+     top: 71px;
+     left: 596px;
+     border-radius: 50px;
+     transform: rotate(-9deg);
+}
+
+.flower-inside {
+   position: absolute;
+   width: 6px;
+   background: white;
+   height: 15px;
+   top: 27px;
+   left: 4px;
+   border-radius: 50px;
+   transform: rotate(-1deg);
+
+}
+
+ .flower2 {
+     position: absolute;
+     width: 15px;
+     background: rgba(158, 58, 158, 0.57);
+     height: 43px;
+     top: 91px;
+     left: 645px;
+     border-radius: 50px;
+     transform: rotate(9deg);
+}
+
+.flower-inside2 {
+  position: absolute;
+  width: 6px;
+  background: white;
+  height: 15px;
+  top: 26px;
+  left: 5px;
+  border-radius: 50px;
+  transform: rotate(2deg);
+
 }
