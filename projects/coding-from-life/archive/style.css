@@ -1,0 +1,32 @@
+body {
+  background-color: lavender
+}
+
+h1 {
+  color: navy;
+  font-family: 'futura';
+  text-align: center;
+  font-size: 55px
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background: rgba(158, 58, 158, 0.57);
+  float: left;
+  margin: 45px 45px;
+}
+
+.title {
+
+  color: purple;
+  font-family: 'futura';
+  font-size:18px;
+  line-height: 0.9em;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+
