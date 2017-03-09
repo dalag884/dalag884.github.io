@@ -1,0 +1,69 @@
+
+
+body{
+  background: yellow;
+  font-size: 2vmin;
+}
+
+
+#Oval:hover {
+  fill: green;
+}
+
+h1{
+  font-family:'avenir';
+}
+
+h2{
+ font-family:'avenir';
+}
+
+p{
+  font-family: 'avenir';
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.container1 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image {
+
+border: 2px solid red;
+max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  height: 0%;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.metadata {
+  white-space: nowrap;
+  color: red;
+  font-family: 'avenir';
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
