@@ -5,9 +5,8 @@ body{
   font-size: 2vmin;
 }
 
-
 #Oval:hover {
-  fill: green;
+  color: green;
 }
 
 h1{
@@ -20,6 +19,7 @@ h2{
 
 p{
   font-family: 'avenir';
+  font-weight: 'bold';
   font-size: 30px;
   text-align: center;
 }
@@ -33,7 +33,7 @@ p{
 
 .image {
 
-border: 2px solid red;
+border: 3px solid red;
 max-width: 100%;
 }
 
@@ -65,5 +65,7 @@ max-width: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+
 
 
