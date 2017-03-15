@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script>
+      $(function() {
+        $('.oval').mouseenter(function() {
+          var id = $(this).attr('data-oval-id');
+          $('[data-hover-image-id="' + id + '"]').addClass('active');
+        });
+        $('.oval').mouseleave(function() {
+          var id = $(this).attr('data-oval-id');
+          $('[data-hover-image-id="' + id + '"]').removeClass('active');
+        });
+      });
+    </script>
     <title>Document</title>
 
 </head>
@@ -34,22 +48,40 @@
         <tspan x="665" y="155" fill="#000000">End</tspan>
     </text>
     <path d="M76.6500132,433.760394 C76.6500132,409.960902 69.6114788,377.386881 81.8359045,353.088647 C88.2066271,340.425695 114.000712,335.521288 127.211004,334.43531 C163.412178,331.45932 199.684942,329.334693 235.969863,327.688854 C238.00326,327.596622 240.043517,328.350852 241.880041,329.234067 C245.075558,330.770843 248.568836,332.196127 250.907548,334.872634 C271.647779,358.608516 279.070774,394.259683 289.451177,422.098414 C291.449753,427.458303 291.952898,434.338353 296.543391,437.719636 C300.641858,440.7385 311.97738,443.636631 311.759201,438.530144 C310.483581,408.674112 298.338406,380.291293 292.835044,350.92535 C290.023168,335.92118 288.423694,320.703865 286.832158,305.51943 C286.419869,301.585896 284.931478,297.115495 286.832158,293.653365 C299.545005,270.496632 355.460434,249.270297 377.825717,241.745892 C422.320973,226.776249 475.712107,217.053856 519.258588,206.27598 C574.851336,192.516619 539.739583,197.481961 609.817576,176.497114 C634.036286,169.244824 646.807402,172.72526 664,154.8" id="Path-2" stroke="#0000FF" stroke-width="10" fill="none"></path>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="655.5" cy="161.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="604.5" cy="178.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="587.5" cy="184.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="506.5" cy="210.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="456.5" cy="221.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="290.5" cy="289.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="307.5" cy="275.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="307.5" cy="443.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="222.5" cy="327.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="90.5" cy="345.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="74.5" cy="395.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="116.5" cy="336.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="299.5" cy="378.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="288.5" cy="418.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="247.5" cy="332.5" r="8.5"></circle>
+    <a href="walk5picture15.html" class="svg"><circle class="oval" data-oval-id="15" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="655.5" cy="161.5" r="8.5"></circle></a>
+    <a href="walk5picture14.html" class="svg"><circle class="oval" data-oval-id="14" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="604.5" cy="178.5" r="8.5"></circle></a>
+    <a href="walk5picture13.html" class="svg"><circle class="oval" data-oval-id="13" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="587.5" cy="184.5" r="8.5"></circle></a>
+    <a href="walk5picture12.html" class="svg"><circle class="oval" data-oval-id="12" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="506.5" cy="210.5" r="8.5"></circle></a>
+    <a href="walk5picture11.html" class="svg"><circle class="oval" data-oval-id="11" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="456.5" cy="221.5" r="8.5"></circle></a>
+    <a href="walk5picture9.html" class="svg"><circle class="oval" data-oval-id="9" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="290.5" cy="289.5" r="8.5"></circle></a>
+    <a href="walk5picture10.html" class="svg"><circle class="oval" data-oval-id="10" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="307.5" cy="275.5" r="8.5"></circle></a>
+    <a href="walk5picture7.html" class="svg"><circle class="oval" data-oval-id="7" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="307.5" cy="443.5" r="8.5"></circle></a>
+    <a href="walk5picture4.html" class="svg"><circle class="oval" data-oval-id="4" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="222.5" cy="327.5" r="8.5"></circle></a>
+    <a href="walk5picture2.html" class="svg"><circle class="oval" data-oval-id="2" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="90.5" cy="345.5" r="8.5"></circle></a>
+    <a href="walk5picture1.html" class="svg"><circle class="oval" data-oval-id="1" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="74.5" cy="395.5" r="8.5"></circle></a>
+    <a href="walk5picture3.html" class="svg"><circle class="oval" data-oval-id="3" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="116.5" cy="336.5" r="8.5"></circle></a>
+    <a href="walk5picture8.html" class="svg"><circle class="oval" data-oval-id="8" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="299.5" cy="378.5" r="8.5"></circle></a>
+    <a href="walk5picture6.html" class="svg"><circle class="oval" data-oval-id="6" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="288.5" cy="418.5" r="8.5"></circle></a>
+    <a href="walk5picture5.html" class="svg"><circle class="oval" data-oval-id="5" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="247.5" cy="332.5" r="8.5"></circle></a>
 </svg>
+
+<div class="hover-images">
+  <img data-hover-image-id="1" src="assets/imgs/walk5/IMG_8738.jpg">
+  <img data-hover-image-id="2" src="assets/imgs/walk5/IMG_8739.jpg">
+  <img data-hover-image-id="3" src="assets/imgs/walk5/IMG_8740.jpg">
+  <img data-hover-image-id="4" src="assets/imgs/walk5/IMG_8741.jpg">
+  <img data-hover-image-id="5" src="assets/imgs/walk5/IMG_8742.jpg">
+  <img data-hover-image-id="6" src="assets/imgs/walk5/IMG_8743.jpg">
+  <img data-hover-image-id="7" src="assets/imgs/walk5/IMG_8744.jpg">
+  <img data-hover-image-id="8" src="assets/imgs/walk5/IMG_8745.jpg">
+  <img data-hover-image-id="9" src="assets/imgs/walk5/IMG_8749.jpg">
+  <img data-hover-image-id="10" src="assets/imgs/walk5/IMG_8750.jpg">
+  <img data-hover-image-id="11" src="assets/imgs/walk5/IMG_8746.jpg">
+  <img data-hover-image-id="12" src="assets/imgs/walk5/IMG_8747.jpg">
+  <img data-hover-image-id="13" src="assets/imgs/walk5/IMG_8748.jpg">
+  <img data-hover-image-id="14" src="assets/imgs/walk5/IMG_8752.jpg">
+  <img data-hover-image-id="15" src="assets/imgs/walk5/IMG_8751.jpg">
+</div>
 
 <h2>This walk was taken on the 1st of March, 2017 from St Marks place to 31st street and 3rd avenue.</h2>
 </body>

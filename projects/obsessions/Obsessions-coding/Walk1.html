@@ -3,8 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
+  <script>
+    $(function() {
+      $('.oval').mouseenter(function() {
+        var id = $(this).attr('data-oval-id');
+        $('[data-hover-image-id="' + id + '"]').addClass('active');
+      });
+      $('.oval').mouseleave(function() {
+        var id = $(this).attr('data-oval-id');
+        $('[data-hover-image-id="' + id + '"]').removeClass('active');
+      });
+    });
+  </script>
+
+  <title>Document</title>
 </head>
 <body>
 
@@ -28,20 +42,32 @@
         <tspan x="98" y="479" fill="#000000">Begin</tspan>
     </text>
     <path d="M118.562761,449.756943 C118.562761,403.080928 158.996485,362.129251 201.987682,348.447698 C223.668055,341.548119 273.430808,340.708697 292.885482,340.367792 C337.421652,339.587382 381.974912,340.093915 426.509755,339.241111 C432.328608,339.129685 445.260446,338.281905 451.747391,334.725193 C461.141497,329.574521 466.466319,310.169393 468.2751,303.072377 C475.82836,273.436063 467.226545,218.005852 493.632303,198.56704 C514.640374,183.101778 539.397245,175.103732 565.004045,171.292181 C570.838375,170.423746 577.010015,172.806323 582.699822,171.250793 C584.24204,170.829168 582.699822,168.053167 582.699822,166.454354" id="Path-2" stroke="#0000FF" stroke-width="10" fill="none"></path>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="119.5" cy="441.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="574.5" cy="171.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="119.5" cy="441.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="469.5" cy="299.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="454.5" cy="333.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="474.5" cy="243.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="130.5" cy="406.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="194.5" cy="351.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="249.5" cy="342.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="342.5" cy="341.5" r="8.5"></circle>
+
+   <a href="picture5.html" class="svg"> <circle class="oval" data-oval-id="5" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="342.5" cy="341.5" r="8.5"></circle></a>
+   <a href="picture9.html" class="svg"><circle class="oval" data-oval-id="9" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="574.5" cy="171.5" r="8.5"></circle></a>
+   <a href="picture1.html" class="svg"> <circle class="oval" data-oval-id="1" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="119.5" cy="441.5" r="8.5"></circle></a>
+   <a href="picture7.html" class="svg"> <circle class="oval" data-oval-id="7" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="469.5" cy="299.5" r="8.5"></circle></a>
+   <a href="picture6.html" class="svg"> <circle class="oval" data-oval-id="6" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="454.5" cy="333.5" r="8.5"></circle></a>
+   <a href="picture8.html" class="svg"> <circle class="oval" data-oval-id="8" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="474.5" cy="243.5" r="8.5"></circle></a>
+   <a href="picture2.html" class="svg"><circle class="oval" data-oval-id="2" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="130.5" cy="406.5" r="8.5"></circle></a>
+   <a href="picture3.html" class="svg"> <circle class="oval" data-oval-id="3" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="194.5" cy="351.5" r="8.5"></circle></a>
+   <a href="picture4.html" class="svg"> <circle class="oval" data-oval-id="4" id="Oval"  fill="#FF0000" fill-rule="evenodd" cx="249.5" cy="342.5" r="8.5"></circle></a>
 </svg>
 
+<div class="hover-images">
+  <img data-hover-image-id="1" src="assets/imgs/walk1/ground.jpg">
+  <img data-hover-image-id="2" src="assets/imgs/walk1/IMG_6784.jpg">
+  <img data-hover-image-id="3" src="assets/imgs/walk1/treebark.jpg">
+  <img data-hover-image-id="4" src="assets/imgs/walk1/unnamed-2.jpg">
+  <img data-hover-image-id="5" src="assets/imgs/walk1/unnamed-1.jpg">
+  <img data-hover-image-id="6" src="assets/imgs/walk1/IMG_6788.jpg">
+  <img data-hover-image-id="7" src="assets/imgs/walk1/paintonground.jpg">
+  <img data-hover-image-id="8" src="assets/imgs/walk1/IMG_6781.jpg">
+  <img data-hover-image-id="9" src="assets/imgs/walk1/IMG_6816.jpg">
+</div>
 
 
 <h2>This walk was taken on the 21st of Feb, 2017 from 31st street and 3rd avenue to 13th street and 5th avenue.</h2>
+
 </body>
 </html>

@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script>
+      $(function() {
+        $('.oval').mouseenter(function() {
+          var id = $(this).attr('data-oval-id');
+          $('[data-hover-image-id="' + id + '"]').addClass('active');
+        });
+        $('.oval').mouseleave(function() {
+          var id = $(this).attr('data-oval-id');
+          $('[data-hover-image-id="' + id + '"]').removeClass('active');
+        });
+      });
+    </script>
     <title>Document</title>
 
 </head>
@@ -28,21 +42,21 @@
 
 <svg viewBox="56 136 689 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <path d="M81.4638028,459.911312 C81.5772833,447.812322 77.803972,398.819795 86.9278537,377.442905 C102.34644,341.317771 160.7922,335.503412 207.602659,332.137072 C296.188022,325.76652 445.989777,343.408928 515.778233,319.446765 C580.177867,297.334876 524.744156,210.162151 560.437535,177.011474 C592.900412,146.861168 655.602514,168.732428 697,154" id="Path-2" stroke="#0000FF" stroke-width="10" fill="none"></path>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="81.5" cy="444.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="293.5" cy="331.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="518.5" cy="318.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="80.5" cy="427.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="543.5" cy="294.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="126.5" cy="345.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="163.5" cy="337.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="97.5" cy="362.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="276.5" cy="331.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="380.5" cy="332.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="410.5" cy="332.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="549.5" cy="277.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="547.5" cy="208.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="591.5" cy="162.5" r="8.5"></circle>
-    <circle id="Oval" fill="#FF0000" fill-rule="evenodd" cx="672.5" cy="159.5" r="8.5"></circle>
+    <a href="walk4picture1.html" class="svg"><circle class="oval" data-oval-id="1" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="81.5" cy="444.5" r="8.5"></circle></a>
+    <a href="walk4picture7.html" class="svg"><circle class="oval" data-oval-id="7" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="293.5" cy="331.5" r="8.5"></circle></a>
+    <a href="walk4picture10.html" class="svg"><circle class="oval" data-oval-id="10" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="518.5" cy="318.5" r="8.5"></circle></a>
+    <a href="walk4picture2.html" class="svg"><circle class="oval" data-oval-id="2" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="80.5" cy="427.5" r="8.5"></circle></a>
+    <a href="walk4picture11.html" class="svg"><circle class="oval" data-oval-id="11" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="543.5" cy="294.5" r="8.5"></circle></a>
+    <a href="walk4picture4.html" class="svg"><circle class="oval" data-oval-id="4" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="126.5" cy="345.5" r="8.5"></circle></a>
+    <a href="walk4picture5.html" class="svg"><circle class="oval" data-oval-id="5" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="163.5" cy="337.5" r="8.5"></circle></a>
+    <a href="walk4picture3.html" class="svg"><circle class="oval" data-oval-id="3" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="97.5" cy="362.5" r="8.5"></circle></a>
+    <a href="walk4picture6.html" class="svg"><circle class="oval" data-oval-id="6" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="276.5" cy="331.5" r="8.5"></circle></a>
+    <a href="walk4picture8.html" class="svg"><circle class="oval" data-oval-id="8" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="380.5" cy="332.5" r="8.5"></circle></a>
+    <a href="walk4picture9.html" class="svg"><circle class="oval" data-oval-id="9" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="410.5" cy="332.5" r="8.5"></circle></a>
+    <a href="walk4picture12.html" class="svg"><circle class="oval" data-oval-id="12" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="549.5" cy="277.5" r="8.5"></circle></a>
+    <a href="walk4picture13.html" class="svg"><circle class="oval" data-oval-id="13" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="547.5" cy="208.5" r="8.5"></circle></a>
+    <a href="walk4picture14.html" class="svg"><circle class="oval" data-oval-id="14" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="591.5" cy="162.5" r="8.5"></circle></a>
+    <a href="walk4picture15.html" class="svg"><circle class="oval" data-oval-id="15" id="Oval" fill="#FF0000" fill-rule="evenodd" cx="672.5" cy="159.5" r="8.5"></circle></a>
     <text id="Begin" stroke="none" fill="none" font-family="Avenir-Heavy, Avenir" font-size="25" font-weight="600">
         <tspan x="56" y="477" fill="#000000">Begin</tspan>
     </text>
@@ -50,6 +64,24 @@
         <tspan x="699" y="161" fill="#000000">End</tspan>
     </text>
 </svg>
+
+<div class="hover-images">
+  <img data-hover-image-id="1" src="assets/imgs/walk4/4-ScratchTexture.jpg">
+  <img data-hover-image-id="2" src="assets/imgs/walk4/fallen_leaves_221032.jpg">
+  <img data-hover-image-id="3" src="assets/imgs/walk4/marble_texture_9181134.jpg">
+  <img data-hover-image-id="4" src="assets/imgs/walk4/peeling-red-wall.jpg">
+  <img data-hover-image-id="5" src="assets/imgs/walk4/cement2.jpg">
+  <img data-hover-image-id="6" src="assets/imgs/walk4/IMG_8737.jpg">
+  <img data-hover-image-id="7" src="assets/imgs/walk4/IMG_8736.jpg">
+  <img data-hover-image-id="8" src="assets/imgs/walk4/Wet-cement-texture.jpg">
+  <img data-hover-image-id="9" src="assets/imgs/walk4/IMG_8725.jpg">
+  <img data-hover-image-id="10" src="assets/imgs/walk4/IMG_8734.jpg">
+  <img data-hover-image-id="11" src="assets/imgs/walk4/TRASHBAG.jpg">
+  <img data-hover-image-id="12" src="assets/imgs/walk4/tree_texture.jpg">
+  <img data-hover-image-id="13" src="assets/imgs/walk4/tyre.jpg">
+  <img data-hover-image-id="14" src="assets/imgs/walk4/Texture-Packiles.jpg">
+  <img data-hover-image-id="15" src="assets/imgs/walk4/road_damaged.jpg">
+</div>
 
 <h2>This walk was taken on the 27th of Feb, 2017 from 18th street and 5th avenue to 34th street and 7th avenue.</h2>
 </body>
