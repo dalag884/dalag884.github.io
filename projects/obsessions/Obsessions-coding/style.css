@@ -1,21 +1,13 @@
 
+html{
+  font-family: 'avenir';
+
+}
 
 body{
   background: yellow;
-  font-size: 2vmin;
 }
 
-#Oval:hover {
-  color: green;
-}
-
-h1{
-  font-family:'avenir';
-}
-
-h2{
- font-family:'avenir';
-}
 
 p{
   font-family: 'avenir';
@@ -57,7 +49,7 @@ max-width: 100%;
   white-space: nowrap;
   color: red;
   font-family: 'avenir';
-  font-size: 30px;
+  font-size: 35px;
   position: absolute;
   overflow: hidden;
   top: 50%;
