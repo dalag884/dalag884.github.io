@@ -12,8 +12,8 @@ console.log(favoriteNumber);
 var allStudentsHere = true;
 console.log(allStudentsHere);
 
-var myArray = [ 'g','a','u','r','i','k','a'];
-console.log(myArray);
+var myFirstName = [ 'g','a','u','r','i','k','a'];
+console.log(myFirstName);
 
 var randomArray = ['hello', 'world', 1, 2, true, false, 'lorem ipsum']
 console.log(randomArray);
@@ -39,3 +39,22 @@ if ( allStudentsHere== true ) {
   console.log("all students not in class");
 }
 
+for(console.log(MyFirstName));
+
+var time = date.getTime();
+
+if ( time > 7pm && time < 9:40pm ) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+var favoriteFruits = ['strawberry', 'passionfruit', 'banana'];
+var favoriteAnimals = ['dog', 'tiger', 'pig'];
+var favoritePlaces = ['Mumbai', 'London', 'Paris'];
+var favoritePokemon = ['Pikachu', 'Charmander', 'Squirtle'];
+
+var arrayOfArrays =[ ['strawberry', 'passionfruit', 'banana'],
+                     ['dog', 'tiger', 'pig'],
+                     ['Mumbai', 'London', 'Paris'],
+                     ['Pikachu', 'Charmander', 'Squirtle']]
