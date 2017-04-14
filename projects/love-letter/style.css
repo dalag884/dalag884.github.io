@@ -1,4 +1,174 @@
 
-  .st0{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
-  .st0:hover{
-    fill: yellow;}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+  svg{
+max-width: 100%;
+}
+
+
+.girl{
+  top: 10%;
+  left: 10%;
+  position: absolute;
+}
+
+
+.face.active{
+    fill: #FF9781;
+}
+
+.hair.active{
+      fill: black;
+}
+
+.clothes.active{
+      fill: purple;
+}
+
+.bodyparts.active{
+      fill: #FF9781;
+}
+
+.eyes.active{
+      fill: white;
+}
+
+.pencil{
+  position: absolute;
+  top: 30%;
+  right: 30%;
+}
+.lead.active{
+      fill: grey;
+}
+.wood.active{
+      fill: yellow;
+}
+.eraser.active{
+      fill: pink;
+}
+
+
+
+
+.thought-bubble{
+  position: absolute;
+  top: 110%;
+  right: 10%;
+}
+
+.big.active{
+      fill: blue;
+}
+
+.medium.active{
+      fill: #81F1FF;
+}
+
+.small.active{
+      fill: #2B8E9A;
+}
+
+.computer{
+  position: absolute;
+  top: 180%;
+  left: 10%;
+}
+
+.outer.active{
+      fill: #009EFF;
+}
+.stand.active{
+      fill: #009EFF;
+}
+.keyboard.active{
+      fill: purple;
+}
+.mouse.active{
+      fill: green;
+}
+.inner.active{
+      fill: red;
+}
+
+.flower{
+ position: absolute;
+ top: 220%;
+ right: 10%;
+}
+.petals.active{
+      fill: orange;
+}
+.pollen.active{
+      fill: yellow;
+}
+.stem.active{
+      fill: brown;
+}
+.leaves.active{
+      fill: green;
+}
+
+.extraleaf{
+  position: absolute;
+  top: 210%;
+  right: 40%;
+}
+
+.otherleaf.active{
+      fill: lightgreen;
+}
+
+
+.first {
+  position:absolute;
+  top:70%;
+  right: 45%;
+  width:50%;
+  text-align: center;
+  font-family: 'avenir';
+  font-weight: bold;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+
+.second {
+  position:absolute;
+  top:130%;
+  right: 10%;
+  width:50%;
+  text-align: center;
+  font-family: 'avenir';
+  font-weight: bold;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.third {
+  position:absolute;
+  top:190%;
+  right: 45%;
+  width:50%;
+  text-align: center;
+  font-family: 'avenir';
+  font-weight: bold;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.fourth {
+  position:absolute;
+  top:270%;
+  right: 5%;
+  width:50%;
+  text-align: center;
+  font-family: 'avenir';
+  font-weight: bold;
+  font-size: 20px;
+  background-color: yellow;
+}
