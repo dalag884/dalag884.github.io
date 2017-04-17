@@ -1,13 +1,6 @@
 body {
-   cursor: url('love-letter/crayon-png-cursor.png'), default;
+   cursor: url(crayon-png-cursor.png), pointer;
 }
-
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
-}
-
 svg{
 max-width: 100%;
 }
@@ -64,15 +57,15 @@ max-width: 100%;
 }
 
 .big.active{
-      fill: blue;
+      fill: darkblue;
 }
 
 .medium.active{
-      fill: #81F1FF;
+      fill: blue;
 }
 
 .small.active{
-      fill: #2B8E9A;
+      fill: lightblue;
 }
 
 .computer{
@@ -82,16 +75,16 @@ max-width: 100%;
 }
 
 .outer.active{
-      fill: #009EFF;
+      fill: orange;
 }
 .stand.active{
-      fill: #009EFF;
+      fill: maroon;
 }
 .keyboard.active{
-      fill: purple;
+      fill: orange;
 }
 .mouse.active{
-      fill: green;
+      fill: red;
 }
 .inner.active{
       fill: red;
@@ -103,10 +96,10 @@ max-width: 100%;
  right: 10%;
 }
 .petals.active{
-      fill: orange;
+      fill: #FF00F7;
 }
 .pollen.active{
-      fill: yellow;
+      fill: pink;
 }
 .stem.active{
       fill: brown;
@@ -122,7 +115,7 @@ max-width: 100%;
 }
 
 .otherleaf.active{
-      fill: lightgreen;
+      fill: darkgreen;
 }
 
 
