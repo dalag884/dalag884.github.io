@@ -1,0 +1,60 @@
+
+body{
+
+}
+
+
+nav {
+ float: left;
+ max-width: 160px;
+ margin: 0;
+ padding: 3em;
+ font-size: 15pt;
+ font-family: 'avenir';
+ background-color: lavender;
+}
+.projects{
+  font-weight: bold;
+}
+
+article {
+ margin-left: 170px;
+ padding: 1em;
+ overflow: hidden;
+ color: black;
+ font-family: 'avenir';
+ font-size: 15pt;
+ text-align: center;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.girl{
+  top: 40%;
+  right: 32%;
+  position: absolute;
+}
+
+
+.face.active{
+    fill: #FF9781;
+}
+
+.hair.active{
+      fill: black;
+}
+
+.clothes.active{
+      fill: lavender;
+}
+
+.bodyparts.active{
+      fill: #FF9781;
+}
+
+.eyes.active{
+      fill: white;
+}

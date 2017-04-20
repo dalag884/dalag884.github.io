@@ -1,0 +1,21 @@
+body{
+  margin: 0px;
+}
+
+div{
+  width: 33.33%;
+  float: left;
+  height: 33.33vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.green{
+  background-color: #CBDF1E;
+}
+.white{
+  background-color: white;
+}
+.grey{
+  background-color: #607D8D;
+}
