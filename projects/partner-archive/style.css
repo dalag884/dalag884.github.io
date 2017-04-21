@@ -1,0 +1,29 @@
+h1{
+  font-family: 'helvetica';
+  font-size: 20pt;
+  text-align: center;
+  font-weight: normal;
+  padding: 1px;
+
+}
+
+.vid{
+  max-width: 95%;
+  position: absolute;
+  padding: 1px;
+}
+
+h2{
+ font-family: 'helvetica';
+ font-size: 13pt;
+ text-align: center;
+ font-weight: normal;
+ position: relative;
+}
+
+.heading{
+ font-family: 'helvetica';
+ font-size: 13pt;
+ text-align: center;
+ font-weight: normal;
+}
