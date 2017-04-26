@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  border: solid 3px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  margin: 50px auto;
+  clear:both;
+  text-align: center;
+}
+
+.boxes {
+  width: 130px;
+  height: 150px;
+  border: solid 3px #6A37B7;
+  display: inline-block;
+  margin: 5px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255);
+  color: #6A37B7;
+}
+p {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.active {
+  background: #6A37B7;
+  color: rgb(255, 255, 255);
+}
