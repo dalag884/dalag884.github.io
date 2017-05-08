@@ -18,18 +18,21 @@ body{
 }
 
 #time {
-  font-size: 20pt;
-  font-family: 'arial';
+  font-size: 30pt;
+  font-family: 'Oswald', sans-serif;
   align-content: center;
   color: black;
+  padding: 3px;
 }
 
 #time2 {
-  font-size: 20pt;
-  font-family: 'arial';
+  font-size: 30pt;
+  font-family: 'Oswald', sans-serif;
   align-content: center;
   color: white;
+  padding: 3px;
 }
+
 div.container {
     width: 100%;
 }
@@ -42,30 +45,12 @@ div.container {
 
 .image{
   border: 10px solid pink;
-  max-width: 300px
+  max-width: 300px;
+  position: relative;
 }
 
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0%;
-  transition: .5s ease;
-}
 
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
-
-.overlayimage{
-  white-space: nowrap;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.hover-images image.active,
+.hover-images image:hover {
+  display: block;
 }
