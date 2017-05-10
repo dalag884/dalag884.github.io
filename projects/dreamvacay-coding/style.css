@@ -1,6 +1,11 @@
 body{
   width: 50%;
 }
+h1{
+  font-size: 35pt;
+  font-family: 'Oswald', sans-serif;
+  color: pink
+}
 .left-half {
   background-color: white;
   position: absolute;
@@ -42,15 +47,48 @@ div.container {
   width: 50%;
   margin: 0 auto;
 }
-
-.image{
-  border: 10px solid pink;
-  max-width: 300px;
+.images{
   position: relative;
+
 }
 
+.image{
+  border: 13px solid pink;
+  max-width: 300px;
+  position: relative;
+  -webkit-filter:  saturate(8) contrast(5) grayscale(4) invert(1) brightness(1);
+  filter: saturate(8) contrast(5) grayscale(4) invert(1) brightness(1);
+}
 
-.hover-images image.active,
-.hover-images image:hover {
-  display: block;
+.image:hover {
+  -webkit-filter:  saturate() contrast() ;
+    filter: saturate() contrast() ;
+  }
+
+  @media only screen and (max-width: 900px) {
+      .image {
+          max-width: 150px;
+          border: 10px solid pink;
+      }
+     #time, #time2{
+        font-size: 25pt
+      }
+
+      h1{
+        font-size: 20pt
+      }
+  }
+
+@media only screen and (max-width: 700px) {
+    .image {
+        max-width: 100px;
+        border: 8px solid pink;
+    }
+   #time, #time2{
+      font-size: 15pt
+    }
+
+    h1{
+      font-size: 10pt
+    }
 }
