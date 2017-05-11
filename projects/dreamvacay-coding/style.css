@@ -1,10 +1,12 @@
-body{
-  width: 50%;
-}
+
 h1{
   font-size: 35pt;
   font-family: 'Oswald', sans-serif;
-  color: pink
+  color: pink;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+
 }
 .left-half {
   background-color: white;
@@ -20,7 +22,7 @@ h1{
   right: 0px;
   width: 50%;
   text-align: center;
-}
+  }
 
 #time {
   font-size: 30pt;
@@ -28,6 +30,7 @@ h1{
   align-content: center;
   color: black;
   padding: 3px;
+  position: relative;
 }
 
 #time2 {
@@ -36,19 +39,16 @@ h1{
   align-content: center;
   color: white;
   padding: 3px;
+  position: relative;
 }
 
-div.container {
-    width: 100%;
+.small{
+  width: 50px
 }
 
-.container1 {
-  position: absolute;
-  width: 50%;
-  margin: 0 auto;
-}
 .images{
   position: relative;
+  float: center;
 
 }
 
@@ -58,6 +58,8 @@ div.container {
   position: relative;
   -webkit-filter:  saturate(8) contrast(5) grayscale(4) invert(1) brightness(1);
   filter: saturate(8) contrast(5) grayscale(4) invert(1) brightness(1);
+  display: none;
+
 }
 
 .image:hover {
@@ -65,10 +67,13 @@ div.container {
     filter: saturate() contrast() ;
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 800px) {
       .image {
           max-width: 150px;
           border: 10px solid pink;
+      }
+      .small{
+        width: 30px
       }
      #time, #time2{
         font-size: 25pt
@@ -79,16 +84,43 @@ div.container {
       }
   }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
     .image {
-        max-width: 100px;
-        border: 8px solid pink;
+        max-width: 60px;
+        border: 0px solid pink;
+        -webkit-filter:  saturate() contrast() ;
+        filter: saturate() contrast() ;
+        float: center;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .small{
+      width: 70px
     }
    #time, #time2{
       font-size: 15pt
     }
 
     h1{
-      font-size: 10pt
+      font-size: 40pt;
+      position: fixed;
+
+    }
+    .left-half {
+      background-color: white;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 50%;
+      text-align: center;
+    }
+    .right-half {
+      background-color: black;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      height: 50%;
+      text-align: center;
     }
 }
