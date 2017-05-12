@@ -1,13 +1,13 @@
 
 h1{
-  font-size: 35pt;
+  font-size: 40pt;
   font-family: 'Oswald', sans-serif;
   color: pink;
   position: relative;
   text-align: center;
   z-index: 10;
-
 }
+
 .left-half {
   background-color: white;
   position: absolute;
@@ -25,7 +25,7 @@ h1{
   }
 
 #time {
-  font-size: 30pt;
+  font-size: 35pt;
   font-family: 'Oswald', sans-serif;
   align-content: center;
   color: black;
@@ -34,7 +34,7 @@ h1{
 }
 
 #time2 {
-  font-size: 30pt;
+  font-size: 35pt;
   font-family: 'Oswald', sans-serif;
   align-content: center;
   color: white;
@@ -76,7 +76,7 @@ h1{
         width: 30px
       }
      #time, #time2{
-        font-size: 25pt
+        font-size: 20pt
       }
 
       h1{
@@ -86,7 +86,7 @@ h1{
 
 @media only screen and (max-width: 500px) {
     .image {
-        max-width: 60px;
+        max-width: 70px;
         border: 0px solid pink;
         -webkit-filter:  saturate() contrast() ;
         filter: saturate() contrast() ;
